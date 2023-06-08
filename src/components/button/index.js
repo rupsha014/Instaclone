@@ -1,9 +1,13 @@
+'use client'
 import React from 'react'
 
-function Button() {
+const Button = ({
+  children, disabled
+
+}) => {
   return (
-    <div>Button</div>
+    <button className='w-full h-full bg-[#0095F6] text-center' disabled={disabled}>{children}</button>
   )
 }
 
-export default Button
+export default Button;
