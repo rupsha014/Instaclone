@@ -64,7 +64,7 @@ const Home = () => {
 
             <button type='submit'
              className='bg-[#0095F6] py-2 px-6 text-white  active:scale-95 transform transition rounded-md'
-              disabled={isDisabled}>
+              disabled={}>
               Log in
             </button>
 
